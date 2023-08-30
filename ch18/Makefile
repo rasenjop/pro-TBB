@@ -41,7 +41,7 @@ ifeq ($(UNAME),Darwin)
   CLFRAMEWORK = -framework OpenCL -Wno-deprecated-declarations
 endif
 
-CXX = icc
+CXX = icpx
 CXXFLAGS = $(EXTRA_CXXFLAGS) -std=c++11 -O2
 LIBS = -ltbb -lpthread
 

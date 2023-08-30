@@ -20,7 +20,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-CXX = icc
+CXX = icpx
 CXXFLAGS = $(EXTRA_CXXFLAGS) -std=c++17 -O2
 LIBS = -ltbb
 
